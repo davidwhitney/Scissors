@@ -1,0 +1,1 @@
+.nuget\nuget pack "src\Scissors\Scissors.csproj" -OutputDirectory artifacts -Build -IncludeReferencedProjects -NonInteractive
