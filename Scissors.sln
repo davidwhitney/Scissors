@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scissors", "src\Scissors\Scissors.csproj", "{C90484DE-F04E-4C47-A694-2BA222360E3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A3C7453E-35F5-499F-A484-88D1F3D08D79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D18D819F-21F1-45DE-8B6A-5DCA359E322E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scissors.Test.Unit", "tests\Scissors.Test.Unit\Scissors.Test.Unit.csproj", "{873E50A7-DD3A-4CC1-8570-A3CF5B1B781B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0F2A30D8-D89E-4088-B0F5-376C806F7FDA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C90484DE-F04E-4C47-A694-2BA222360E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90484DE-F04E-4C47-A694-2BA222360E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90484DE-F04E-4C47-A694-2BA222360E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90484DE-F04E-4C47-A694-2BA222360E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{873E50A7-DD3A-4CC1-8570-A3CF5B1B781B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873E50A7-DD3A-4CC1-8570-A3CF5B1B781B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873E50A7-DD3A-4CC1-8570-A3CF5B1B781B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873E50A7-DD3A-4CC1-8570-A3CF5B1B781B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C90484DE-F04E-4C47-A694-2BA222360E3E} = {A3C7453E-35F5-499F-A484-88D1F3D08D79}
+		{873E50A7-DD3A-4CC1-8570-A3CF5B1B781B} = {D18D819F-21F1-45DE-8B6A-5DCA359E322E}
+	EndGlobalSection
+EndGlobal
